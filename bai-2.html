@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Tính tổng</h2>
+<p id="output"></p>
+<script>
+    let num = +prompt("Enter a number: ");
+    let total = 0;
+    let i;
+    for (i=0;i<=num; i++)    {
+        total += i;
+    }
+    document.getElementById("output").innerHTML = "Tổng có giá trị bằng: " +total;
+</script>
+</body>
+</html>
